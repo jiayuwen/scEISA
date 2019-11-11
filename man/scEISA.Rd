@@ -6,7 +6,7 @@
 scEISA(exon_list, intron_list)
 }
 \description{
-The package aims to distinguishing the post-transciptional regulation using a intron matrix and a exon matrix with different treatment.The output will be a csv file in the current directory with gene that are differentially post transcriptionally regulated between 2 treatments.
+The function aims to distinguishing the post-transciptional regulation using a intron matrix and a exon matrix with different treatment.The output will be a csv file in the current directory with gene that are differentially post transcriptionally regulated between 2 treatments.
 }
 \arguments{
 exon_list: A list contains exon reads and treatment.
@@ -42,4 +42,5 @@ HADHB	HADHB	-0.978333527	9.756083557	14.80829486	0.000119011	0.242603675
 
 
 }
+
 
